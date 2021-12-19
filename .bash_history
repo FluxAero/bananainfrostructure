@@ -39,3 +39,17 @@ su
 ping 192.168.52.130
 su
 su
+eval "$ (ssh-agent -s)"
+su
+git init
+git add .
+sudo chmod 777 .git
+ls -a
+git add .
+chmod 777 -R .
+sudo chmod 777 -R .
+git add .
+git commit -m 'docker init'
+git push -u Banana master
+sudo
+su
